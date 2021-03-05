@@ -4,13 +4,13 @@ let navbBar = document.querySelector(".Navbar"),
 
 
 bars.addEventListener("click", ()=>{
- navbBar.style.display = "block"; 
+ navbBar.style.transform = "scaleX(1)"; 
  faTimes.style.display = "block";
  bars.style.display = "none";
  
 });
 faTimes.addEventListener("click", () => {
- navbBar.style.display = "none";
+ navbBar.style.transform = "scaleX(0)";
  faTimes.style.display = "none";
  bars.style.display = "block";
 });
