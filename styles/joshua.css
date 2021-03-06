@@ -1,0 +1,106 @@
+.expectation {
+    background: #000;
+    padding: 8rem 0 4rem 0;
+}
+.expectation h3 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* height: 135px; */
+    /* width: 100%; */
+    /* text-align: right; */
+    /* @includes float-right; */
+    margin-left: 760px;
+}
+.expectation img {
+    /* position: absolute; */
+    /* width: 539px;
+    height: 451px;
+    left: 142px; */
+    margin-top: 2rem;
+}
+.expectation p {
+    /* position: relative; */
+    /* right: 65px; */
+    margin-top: 2rem;
+    margin-right: 2rem;
+    color: #fff;
+    line-height: 1.8rem;
+}
+.expectation span {
+    color: #FF7C01;
+}
+.decorate {
+    padding: 2rem 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.decorate h3 {
+    color: #fff;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 1rem;
+}
+.decorate span {
+    color: #FF7C01;
+}
+.decorate p {
+    color: #C4C4C4;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 4rem;
+}
+.decorate button {
+    margin-top: 4rem;
+    background: #FF7C01;
+    padding: 5px 5rem;
+    color: #fff;
+    border-radius: 90px;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+}
+.testimonies {
+    color: #fff;
+    padding: 4rem 0;
+    /* width: 1000px; */
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.testimonies hr {
+    width: 7rem;
+    color: #FF7C01;
+    height: 2px;
+}
+.testimonies h3 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    /* margin-bottom: 2rem; */
+}
+.testimonies p {
+    width: 546px;
+    font-weight: 400;
+}
+.testimonies img {
+    border-radius: 50px;
+}
+.testimonies #first {
+    
+    position: relative;
+    left: 47rem;
+    color: #C4C4C4;
+    /* font-family: 'Catamaran', sans-serif; */
+    font-size: 4rem;
+    /* font-family: 'Lily Script One', cursive; */
+}
+.testimonies i {
+    margin-right: 2rem;
+    /* margin-bottom: 3rem; */
+    margin-top: 2rem;
+}
+.testimonies #row {
+    margin-left: 8rem;
+}
