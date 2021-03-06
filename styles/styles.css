@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 
 *{
@@ -11,12 +11,12 @@ body{
 .head{
  display: flex;
 }
-
+.head .fa-bars{display: none;}
 .head h3{
 
-
-/* margin-top: 18px;  */
-font-family: Montserrat;
+cursor: pointer;
+margin-top: 8px; 
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 30px;
@@ -91,7 +91,7 @@ transition: transform 250ms ease-in;
  z-index: -1;
  transform: scaleY(0);
  transform-origin: top;
- transition: transform 250ms ease-in;
+ transition: transform 250ms ease-in;         
 }
 .Navbar  .contact:hover::after{
 transform: scaleX(1);
@@ -101,4 +101,142 @@ transform-origin: bottom;
 /* -------------------THE CSS FOR SECTION-2 BEGINS HERE-------- */
 .section-2{
  color: white;
+ margin-top: 3%;
+}
+.section-2 h3{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-size: 50px;
+line-height: 70px;
+color: #FFFFFF;
+margin-left: 26px;
+}
+.section-2 p{
+ font-family: Montserrat-regular;
+margin-left: 26px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+margin-top: 30px;
+}
+
+.section-2 img{
+ width: 100%; 
+  /* height: 120%; */
+  margin-left: 10%;
+  /* border-radius: 10px; */
+}
+
+.divide-A{
+ display: grid;
+ grid-template-columns: 40% 50%;
+ grid-gap: 35px;
+}
+.divide-A span{
+ color: #ff7c01;
+}
+.divide-A button{
+ background-color: #FF7C01;
+ color: white;
+ font-family: 'Montserrat', sans-serif;
+ width: 220px;
+
+box-shadow: 0px 9px 30px rgba(255, 124, 1, 0.19);
+border-radius: 90px;
+margin-left: 26px;
+margin-top: 30px;
+}
+.fa-times{display: none;}
+
+
+
+/* media queries begins here */
+
+@media screen and (max-width: 375px){ 
+/* .Navbar{
+ display: none;
+} */
+
+.Navbar {
+transform: scaleX(0);
+transform-origin: right;
+ position: absolute;
+ margin-left: 7rem;
+ text-align: center;
+ background-color: #000000;
+ flex-direction: column;
+ font-size: 17px;
+ line-height: 45px;
+  width: 70%;
+  margin-top: 60px; 
+ cursor: pointer;
+ transition: 1s;
+ border-top: 1px solid #FF7C01;
+}
+
+
+
+.Navbar  .contact{
+ position: relative;
+background: #FF7C01;
+border-radius: 10px;
+width: 48%;
+text-align: center;
+margin:10px auto;
+align-items: center;
+
+}
+.Navbar  .contact::after{
+ border-radius: 10px;     
+}
+
+.divide-A{
+ grid-template-columns: 34% 64%;
+ grid-gap: 10px;} 
+
+.section-2 h3{
+font-family: 'Montserrat', sans-serif;
+font-style: regular;
+font-size: 17px;
+line-height: 26px;
+color: #FFFFFF;
+margin-left: 26px;
+width: 100%;
+}
+
+.section-2 p{
+font-size: 8px;
+line-height: 14px;
+margin-top: 20px;
+width: 100%;
+}
+.br-A{display:none;}
+
+.head .fa-bars{
+ display: block;
+ color: white;
+ font-size: 20px;
+margin-left: 11rem;
+cursor: pointer;  
+margin-top: 25px;}
+
+.head .fa-times{
+ display: none;
+ color: white;
+ font-size: 20px;
+margin-left: 11rem;
+cursor: pointer;  
+margin-top: 25px;}
+
+.divide-A button{
+ width: 93px;
+font-size: 10px;
+border-radius: 10px;
+
+margin-top: 3px;
+}
+
 }
