@@ -178,6 +178,8 @@ color: #FFFFFF;
    
 }
 
+.product-advert-mobile{display: none;}
+
 .product-display img{
   /* Vector */
 margin-left: 8.5rem;
@@ -306,15 +308,16 @@ background: rgba(243, 242, 241, 0.8);
 transform: scaleX(0);
 transform-origin: right;
  position: absolute;
- margin-left: 7rem;
+ margin-left: 0rem;
  text-align: center;
  background-color: #000000;
  flex-direction: column;
- font-size: 17px;
- line-height: 45px;
-  width: 70%;
-  margin-top: 60px; 
+ font-size: 21px;
+ line-height: 63px;
+  width: 100%;
+  margin-top: 61px; 
  cursor: pointer;
+ user-select: none;
  transition: 1s;
  border-top: 1px solid #FF7C01;
 }
@@ -361,7 +364,7 @@ width: 100%;
  display: block;
  color: white;
  font-size: 20px;
-margin-left: 11rem;
+margin-left: 10rem;
 cursor: pointer;  
 margin-top: 25px;}
 
@@ -369,7 +372,7 @@ margin-top: 25px;}
  display: none;
  color: white;
  font-size: 20px;
-margin-left: 11rem;
+margin-left: 10rem;
 cursor: pointer;  
 margin-top: 25px;}
 
@@ -381,5 +384,182 @@ border-radius: 10px;
 margin-top: 3px;
 }
 
+/* media query for the product display begins here */
+
+.product-advert{display: none;}
+.product-advert-mobile{display: block;}
+
+.product-advert-mobile h3{
+height: 90px;
+margin-top: 10%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+/* or 100% */
+text-align: center;
+color: #FFFFFF;
+  line-height: 30px;
+  font-size: 25px;}
+
+
+  .product-advert-mobile span{ color: #ff7c01;}
+
+.product-display-mobile{
+  display: grid;
+ grid-template-columns: 20% 20% 20%;
+  grid-gap: 220px;  
+  margin-left: 1rem; 
+  margin-top: 3rem;
 }
 
+
+.product-display-mobile p{
+width: 250px;
+height: 180px;
+margin: 0px auto;
+top: 1326px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+text-align: center;
+color: rgba(0, 0, 0, 0.4);
+}
+
+.product-display-mobile-A{
+  /* Rectangle 3 */
+ border-radius: 5px;
+/* width: 280px; */
+height: 445px;
+left: 142px;
+top: 1134px;
+background: #FFFFFF;
+cursor: pointer;
+}
+
+.product-display-mobile-A h6{text-align: center;
+/* Professional Experience */
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 23px;
+/* or 96% */
+}
+
+
+.product-display-mobile-A, .product-display-mobile-B, .product-display-mobile-C{
+  /* Rectangle 3 */
+width: 280px;
+height: 340px;
+}
+
+.product-display-mobile img{
+  /* Vector */
+/* margin-left: 8.5rem; */
+/* margin-right: 12.5%; */
+margin-top: 7%;}
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:360px){ 
+
+/* .head .fa-bars{
+margin-left: 19rem;}
+.head .fa-times{margin-left: 19rem;} */
+
+}
+
+@media screen and (min-width: 540px){ 
+.head .fa-bars{
+ display: block;
+ color: white;
+ font-size: 26px;
+margin-left: 19rem;
+cursor: pointer;  
+margin-top: 26px;}
+
+
+.head .fa-times{
+  font-size: 26px;
+   color: white;
+  margin-top: 26px;
+margin-left: 19rem;
+}
+
+
+
+.Navbar {
+transform: scaleX(0);
+transform-origin: right;
+ position: absolute;
+ margin-left: 0rem;
+ text-align: center;
+ background-color: #000000;
+ flex-direction: column;
+ font-size: 23px;
+ line-height: 80px;
+  width: 100%;
+  font-family: sans-serif;
+  margin-top: 61px; 
+ cursor: pointer;
+ user-select: none;
+ transition: 1s;
+ border-top: 1px solid #FF7C01;
+}
+
+
+
+.Navbar  .contact{
+font-size: 23px;
+border-radius: 10px;
+width: 48%;
+font-family:  sans-serif;
+text-align: center;
+margin:10px auto;
+
+
+}
+.br-A{display:none;}
+
+.section-2 h3{
+font-family: 'Montserrat', sans-serif;
+font-style: regular;
+font-size: 26px;
+line-height: 36px;
+color: #FFFFFF;
+margin-left: 26px;
+width: 100%;
+}
+
+.section-2 p{
+font-size: 14px;
+line-height: 19px;
+margin-top: 15px;
+width: 100%;
+}
+
+.divide-A button{
+ width: 100%;
+font-size: 17px;
+border-radius: 10px;
+margin-top: 1px;
+}
+
+.product-advert h3{
+  line-height: 34px;
+  font-size: 29px;}
+
+
+
+}
