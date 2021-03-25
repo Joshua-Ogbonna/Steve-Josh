@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-
 *{
  padding: 0;
  margin: 0;
@@ -8,12 +7,15 @@
 body{
  background-color: #000000;
 }
+
+
+
+
 .head{
  display: flex;
 }
 .head .fa-bars{display: none;}
 .head h3{
-
 cursor: pointer;
 margin-top: 8px; 
 font-family: 'Montserrat', sans-serif;
@@ -25,8 +27,6 @@ color: #FF7C01;
 }
 
 #dot{
- /* width: 7px; */
-/* height: 7px; */
 color: #FFFFFF;
 font-size: 2em;
 margin-left: -2px;
@@ -189,12 +189,10 @@ margin-top: 20.18%;
 }
 
 .product-display p{
-
 width: 250px;
 height: 180px;
 margin: 0px auto;
 top: 1326px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -295,6 +293,8 @@ background: rgba(243, 242, 241, 0.8);
 }
 
 /* the css for product advert ends here................................. */
+
+
 
 
 /* media queries begins here */
@@ -469,18 +469,101 @@ margin-top: 7%;}
 
 
 
+.product-display-mobile-B h6{text-align: center;
+color: white;
+
+/* Professional Experience */
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 23px;
+/* or 96% */
+
+}
+.product-display-mobile-C h6{
+  text-align: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 23px;
+/* or 96% */}
+
+.product-display-mobile-B{
+/* Rectangle 4 */
+border-radius: 5px;
+/* width: 316px;
+height: 445px; */
+left: 488px;
+top: 1134px;
+background: #FF7C01;
+cursor: pointer;
+}
+
+.product-display-mobile-C{
+ 
+  border-radius: 5px;
+
+left: 834px;
+top: 1134px;
+background: #FFFFFF;
+cursor: pointer;
+}
+
+.bottom-line{
+margin: 28px auto;
+background: rgba(255, 124, 1, 0.8);
+}
+
+.bottom-line-B{
+margin: 28px auto;
+}
 
 }
 
-@media screen and (max-width:360px){ 
 
-/* .head .fa-bars{
-margin-left: 19rem;}
-.head .fa-times{margin-left: 19rem;} */
+
+
+
+@media screen and (max-width: 320px){ 
+
+  .head .fa-bars{
+    position: absolute;
+    margin-left: 20rem;
+  }
+
+.divide-A{
+  grid-gap: 51px;
+}
+.section-2 h3{
+  width: 150%;
+  line-height: 21px;
+}
+
+.section-2 p{
+  margin-top: 8px;
+  width: 140%;
+  font-size: 11px;
+}
+
+
+.divide-A button{
+  width: 130%;
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+.product-advert-mobile h3{
+  
+}
+
 
 }
 
-@media screen and (min-width: 540px){ 
+
+/*------------------
+@media ({540px > = width <=768px}) { 
 .head .fa-bars{
  display: block;
  color: white;
@@ -527,9 +610,8 @@ width: 48%;
 font-family:  sans-serif;
 text-align: center;
 margin:10px auto;
-
-
 }
+
 .br-A{display:none;}
 
 .section-2 h3{
@@ -560,6 +642,5 @@ margin-top: 1px;
   line-height: 34px;
   font-size: 29px;}
 
-
-
 }
+*/
