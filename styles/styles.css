@@ -25,6 +25,7 @@ font-size: 30px;
 line-height: 37px;
 color: #FF7C01;
 }
+.smallScreen{display: none;}
 
 #dot{
 color: #FFFFFF;
@@ -363,7 +364,7 @@ width: 100%;
 .head .fa-bars{
  display: block;
  color: white;
- font-size: 20px;
+ font-size: 25px;
 margin-left: 10rem;
 cursor: pointer;  
 margin-top: 25px;}
@@ -371,7 +372,7 @@ margin-top: 25px;}
 .head .fa-times{
  display: none;
  color: white;
- font-size: 20px;
+ font-size: 25px;
 margin-left: 10rem;
 cursor: pointer;  
 margin-top: 25px;}
@@ -562,6 +563,35 @@ margin: 28px auto;
 }
 
 
+
+
+
+
+@media screen and (max-width: 280px){
+  .smallScreen{display: block;}
+  .lgScreen{display: none;}
+  .head .fa-bars{
+    margin-left: 14.6rem;
+  }
+  .head .fa-times{margin-left: 5rem;}
+  .section-2 h3{
+    margin-left: 2px;
+    width: 160%;
+  line-height: 27px;
+  }
+   .section-2 p{margin-left: 2px;
+  width: 140%;
+line-height: 17px;}
+  .divide-A button{margin-left: 2px;}
+  .divide-A{grid-gap: 21px;}
+  .section-2 img{width: 86.9%;}
+
+.product-advert-mobile h3{line-height: 23px;
+font-size: 19px;}
+
+
+
+}
 /*------------------
 @media ({540px > = width <=768px}) { 
 .head .fa-bars{
